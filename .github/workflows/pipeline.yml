@@ -48,7 +48,7 @@ jobs:
         run: npm ci
       
       - name: Generate Prisma Client
-        run: npm run prisma-generate
+        run: npm run postinstall
       
       - name: Run type-check
         run: npm run type-check
@@ -71,7 +71,7 @@ jobs:
         run: npm ci
 
       - name: Generate Prisma Client
-        run: npm run prisma-generate
+        run: npm run postinstall
       
       - name: Run Unit Tests with Coverage
         run: npm run test:coverage
@@ -95,7 +95,7 @@ jobs:
         run: npm ci
 
       - name: Generate Prisma Client
-        run: npm run prisma-generate
+        run: npm run postinstall
 
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
