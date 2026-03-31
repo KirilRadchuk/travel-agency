@@ -1,0 +1,166 @@
+{
+  "Metadata": {
+    "title": "Travel agency",
+    "description": "Unforgettable journeys, exclusive routes, and the best prices. Find your perfect tour today."
+  },
+  "Auth": {
+    "Errors": {
+      "email_invalid": "Please enter a valid email",
+      "email_exist": "This email is already in use",
+      "name_min": "Name must be at least {min} characters",
+      "name_required": "Name is required",
+      "password_min": "Password must be at least {min} characters",
+      "password_required": "Password is required",
+      "credentials_error": "Invalid email or password",
+      "unknown_error": "Something went wrong",
+      "password_must_be_different": "New password must be different from current",
+      "passwords_must_match": "Passwords do not match",
+      "session_invalid": "User not logged in",
+      "password_change_invalid": "Unable to change password (user not found or login via social network).",
+      "current_password_invalid": "The current password is incorrect."
+    },
+    "Success": {
+      "success_update_profile": "Profile successfully updated!"
+    }
+  },
+  "LoginForm": {
+    "title": "Welcome back",
+    "description": "Login with your Google account",
+    "google-button": "Login with Google",
+    "field-separator": "Or continue with",
+    "email": "Email",
+    "password": "Password",
+    "login-button": "Login",
+    "not-account": "Don't have an account?",
+    "sign-up": "Sign up",
+    "Metadata": {
+      "title": "Sign In",
+      "description": "Log in to your account to view your bookings and manage your travels."
+    }
+  },
+  "RegisterForm": {
+    "title": "Create your account",
+    "description": "Enter your details below to create your account",
+    "google-button": "Sign up with Google",
+    "field-separator": "Or continue with",
+    "name": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "login-button": "Create Account",
+    "not-account": "Already have an account?",
+    "sign-up": "Sign in",
+    "Metadata": {
+      "title": "Sign Up",
+      "description": "Create an account to get access to exclusive tours and fast booking."
+    }
+  },
+  "Header": {
+    "title": "Travel agency",
+    "tours": "Tours",
+    "login": "Sign in",
+    "profile": "Profile",
+    "booking": "My bookings"
+  },
+  "Profile": {
+    "title": "Profile",
+    "description": "Information about the user",
+    "name": "Name",
+    "name_description": "You can change the name",
+    "email": "Email",
+    "email_description": "Your current email address",
+    "current_password": "Current Password",
+    "current_password_description": "Enter current password",
+    "new_password": "New Password",
+    "new_password_description": "Enter new password",
+    "profile_image": "Profile Picture",
+    "button_log_out": "Log out",
+    "button_update": "Update Profile",
+    "Metadata": {
+      "title": "My Profile",
+      "description": "Manage your personal data and account security."
+    }
+  },
+  "Tours": {
+    "title": "Tours",
+    "select-country": "Choose a country",
+    "detail-button": "Details",
+    "duraction": "Duraction: {days} days",
+    "image": "Tour image",
+    "booking-button": "Booking",
+    "next_tour": "Nearest departure",
+    "select_date_label": "Select a travel date",
+    "select_date_placeholder": "Click to choose a date",
+    "no_dates_available": "Unfortunately, there are no available dates for this tour",
+    "booking_success": "Thank you! Your application has been accepted.",
+    "date_required": "Please select a travel date",
+    "select-all": "All countries",
+    "Metadata": {
+      "title": "Our Tours",
+      "country_title": "Tours to {country}",
+      "description": "A wide selection of unforgettable journeys. Choose your perfect tour at the best price."
+    }
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for. It might have been removed or relocated.",
+    "button": "Back to Home"
+  },
+  "Booking": {
+    "Errors": {
+      "session_invalid": "To book a tour you need to log in",
+      "unknown_error": "Something went wrong"
+    },
+    "date-start": "Start of the tour: {days}",
+    "status": {
+      "PENDING": "Pending",
+      "CONFIRMED": "Confirmed",
+      "CANCELLED": "Cancelled",
+      "COMPLETED": "Completed"
+    },
+    "button-cancel": "Сancel Reservation",
+    "view_tour": "Tour details",
+    "cancel_success": "Reservation successfully canceled",
+    "cancelling": "Cancel...",
+    "TourMetadata": {
+      "title": "{name}",
+      "description": "Detailed information about the {name} tour: prices, dates."
+    },
+    "Metadata": {
+      "title": "My Bookings",
+      "description": "List of your booked tours, status tracking, and trip management."
+    }
+  },
+  "Home": {
+    "Hero": {
+      "title": "Discover the world with us",
+      "subtitle": "Unforgettable journeys, exclusive routes, and the best prices. Find your perfect tour today.",
+      "button": "Explore Tours"
+    },
+    "Features": {
+      "title": "Why choose us?",
+      "items": {
+        "expert": {
+          "title": "Expert Guides",
+          "description": "Our guides know the most hidden corners of every country."
+        },
+        "price": {
+          "title": "Best Prices",
+          "description": "We guarantee transparent pricing with no hidden fees."
+        },
+        "support": {
+          "title": "24/7 Support",
+          "description": "We are always in touch to keep your journey safe."
+        }
+      }
+    },
+    "Popular": {
+      "title": "Upcoming Tours",
+      "button_more": "View all tours",
+      "none-available": "There are no tours available yet."
+    },
+    "Metadata": {
+      "title": "Home Page",
+      "description": "Unforgettable journeys, exclusive routes, and the best prices. Find your perfect tour today."
+    }
+  }
+}
